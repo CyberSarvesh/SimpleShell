@@ -3,6 +3,7 @@
 #include <fcntl.h>  // For open()
 #include <unistd.h> // For read(), write(), close()
 #include <stdio.h>
+#include <string.h>
 
 int main() {
     char buffer[100];
